@@ -1,6 +1,6 @@
 # React + PHP + MySQL + React-Bootstrap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Data Layer is implemented on a MySql server, which can be managed via Apache by an administrator. It is exposed by the MySql server. This football players CRUD application's database has 5 tables, one for players, one for countries, one for positions, one for clubs and a link table between players table and clubs table for the history of a player. The Business Logic Layer is written in PHP. It fetch informations from database, sends data from form controls to database, makes posts and updates to/of the database, deletes information from database.The Presentation Layer is written in React. The football players are presented by cards which can be detailed each of them. One card can be deleted and edited. It can be edited or deleted the history of clubs for that player, with the period of time when he played at that club. There are forms to add new players, new countries, new positions on the pitch and new clubs.
 
 ## Available Scripts
 
